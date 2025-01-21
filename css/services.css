@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 160px;
+    background-color: azure;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: azure;
+}
+
+.nav>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: brown;
+}
+
+.services {
+    width: 100%;
+    align-content: center
+}
+
+.img {
+    width: 100%;
+}
+
+.project {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: space-between;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: x-large;
+
+}
+
+.project_topic {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.project_button {
+    width: 80px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: 0;
+    margin-top: 20px;
+
+}
+
+.project2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: space-between;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: x-large;
+
+}
+
+.project_topic2 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.project_button2 {
+    width: 80px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: 0;
+    margin-top: 40px;
+
+}
+
+.inter_work {
+    width: 650px;
+    background-color: #F9F9F9;
+
+}
+
+.how_wework {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    font-size: large;
+}
+
+.concept_details_pcs {
+    display: flex;
+
+}
+
+.concept_details {
+    text-align: end;
+    font-size: xx-large;
+    color: #C76904;
+}
+
+.concept_para {
+    font-size: large;
+    text-align: left;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-left: 180px;
+    font-size: x-large;
+    color: black;
+}
+
+.concept_details_pcs2 {
+    display: flex;
+
+}
+
+.concept_details2 {
+    text-align: left;
+    font-size: xx-large;
+    color: #C76904;
+    margin-top: 90px;
+}
+
+.concept_para2 {
+    font-size: large;
+    text-align: left;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-right: 120px;
+    font-size: x-large;
+    color: black;
+}
+
+.concept2_pcs {
+    margin-top: 90px;
+}
+
+.concept_details_pcs3 {
+    display: flex;
+    padding-right: 30px;
+
+}
+
+.concept_details3 {
+    text-align: end;
+    font-size: xx-large;
+    color: #C76904;
+    margin-top: 90px;
+}
+
+.concept_para3 {
+    font-size: large;
+    text-align: left;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-right: 120px;
+    font-size: x-large;
+    color: black;
+}
+
+.concept3_pcs {
+    margin-top: 90px;
+    padding-right: 50px;
+}
+
+.concept_details_pcs4 {
+    display: flex;
+
+}
+
+.concept_details4 {
+    text-align: left;
+    font-size: xx-large;
+    color: #C76904;
+    margin-top: 90px;
+}
+
+.concept_para4 {
+    font-size: large;
+    text-align: left;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-right: 120px;
+    font-size: x-large;
+    color: black;
+}
+
+.concept4_pcs {
+    margin-top: 90px;
+}
+
+.background_services {
+    width: 100%;
+    }
+.img_back {
+    background-image: url('./../images/background.jpg');
+    width: 100%;
+    margin-top: 70px;
+}
+
+.background_image {
+    height: 500px;
+    width: 100%;
+    background-image: url('./../images/background.jpg');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.text {
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-size: large;
+    background-color: #D8A876;
+    border: transparent;
+    color: white;
+}
+.logo {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    align-content: space-around;
+    gap: 220px;
+    width: 100%;
+    justify-content: center;
+}
+.background {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
