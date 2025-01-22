@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* padding: 0 5px; */
+    /* font-family: ; */
+    background-color: azure;
+    padding: 0 150px;
+}
+
+.logo_colour {
+    color: brown;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0px;
+    background-color: azure;
+}
+
+.nav>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: brown;
+    text-decoration: solid;
+
+}
+.project_banner {
+    width: 100%;
+}
+.project_banner_pic {
+    width: 100%;
+}
+
+.room_type {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #CDA274;
+    border-radius: 10px;
+    font: bold;
+    
+    }
+    .bedroom_colour {
+        background-color: #CDA274;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+            }
+  .GG {
+    display: flex;
+    text-align: left;
+    align-content: center;
+    justify-content: space-between;
+   
+     }
+     .icon {
+        display: flex;
+        align-items: end;
+     }
+    
+     .button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+     }
+     .logo {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .background {
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    .send_button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+      
+}
+     
