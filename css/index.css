@@ -408,6 +408,7 @@ product section
 
 .pics {
     width: 430px;
+    justify-content: space-between;
 }
 
 .product_info {
