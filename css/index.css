@@ -396,13 +396,16 @@ product section
 }
 
 .product_details {
-    width: 547px;
-    height: 548px;
+    width: 100%;
     gap: 20px;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 60px;
+}
+
+.pics {
+    width: 547px;
 }
 
 .product_info {
