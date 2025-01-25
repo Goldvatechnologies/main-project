@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About</title>
   <link rel="stylesheet" href="./../css/about.css" />
+  <link rel="shortcut icon" href="./../images/logo.jpg" type="image/x-icon">
+  
 </head>
 
 <body>
@@ -20,7 +22,7 @@
       <li><a href="./pages/about.html">ABOUT US</a></li>
       <li><a href="./pages/services.html">SERVICES</a></li>
       <li><a href="./pages/Contact.html">CONTACT US</a></li>
-      <li><a href="./pages/Blog.html">BLOG</a></li>
+      <li> <a href="./pages/Blog.html">BLOG</a></li> 
       <li><a href="./pages/Project.html">PROJECT</a></li>
     </ul>
   </nav>
@@ -147,25 +149,26 @@
   <h2 class="creative_project">Creative project? <br>
     Let's have a productive talk</h2>
 
-  <div class="form_tag">
-    <legend>
-      <label for="Name">Name</label> <br>
-      <input class="form" type="text" name="Name" id="Name">
-    </legend>
-    <div class>
-      <legend>
-        <label for="Email Address">Email Address</label> <br>
-        <input class="form" type="text" name="text" id="text">
-      </legend>
-    </div>
-  </div> <br><br><br> <br> <br>
-
+<br><br><br>   
+   <form  class="formtest" action="text">
+    <div>
+    <label for="Name">Name</label>
+    <input required minlength="10" class="box_space" type="text" name="text" id="text">
+  </div>
   <div>
-    <label for="Message">Message</label> <br>
-    <input class="message_box" type="text" name="Message" id="Message">
+    <label for="Name">Email Adderss</label>
+    <input  required class="box_space" type="email" name="email" id="email">
   </div>
 
-  <button class="send_button">Send Now</button>
+     </form> <br>
+     <form action="">
+     <div>
+      <label for="Message">Message</label> <br>
+      <textarea minlength="100" required class="textarea" name="" id=""></textarea>
+    </div>
+  </form>
+  <button class="send_button">Send Now</button> <br> <br>
+  
 
   <section class="logo">
     <div>

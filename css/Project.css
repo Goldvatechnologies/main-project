@@ -84,6 +84,7 @@ body {
         align-items: center;
         margin-top: 20px;
      }
+     
      .logo {
         display: flex;
         margin-top: 50px;
@@ -106,4 +107,6 @@ body {
     font-weight: bold;
       
 }
+
+
      

@@ -148,16 +148,18 @@ body {
 }
 
 .testimony_boxb {
+    width: 100%;
     display: flex;
     gap: 30px;
 }
 
 .testimonyb {
+    width: 100%;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .testimony_detailsb {
@@ -178,7 +180,7 @@ body {
     text-align: center;
     margin-top: 50px;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .lorem {
     text-align: center;
@@ -198,12 +200,36 @@ body {
    display: flex;
    gap: 500px;
       
-  }
-  .message_box {
-    width: 1250px;
-    height: 100px;
-    border-radius: 15px;
-    }
+}
+.formtest {
+ display: flex;
+ justify-content: space-between;
+  
+   }
+
+   .box_space {
+    width: 400px;
+    height: 35px;
+    gap: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   
+    
+   }
+.textarea {
+    width: 100%;
+    height: 40px;
+    resize: none;
+    border-radius: 8px;
+    padding: 20px 10px;
+    
+}
+
+  /* .message_box { */
+    /* width: 1250px; */
+    /* height: 100px; */
+    /* border-radius: 15px; */
+    
     .logo {
         display: flex;
         margin-top: 50px;

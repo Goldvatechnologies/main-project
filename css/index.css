@@ -93,9 +93,10 @@ body {
 }
 
 .section4 {
+    width: 100%;
     display: flex;
-    gap: 50px;
-    margin-left: 100px;
+    /* gap: 50px; */
+    /* margin-left: 100px; */
     margin-top: 50px;
     margin-bottom: 50px;
 }
