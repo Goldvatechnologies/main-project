@@ -84,6 +84,7 @@ body {
     margin-top: 30px;
     text-align: justify;
     margin-bottom: 30px;
+    justify-content: space-between;
 }
 .what_dopcs> img {
     width: 500px;
@@ -210,7 +211,7 @@ body {
    .box_space {
     width: 400px;
     height: 35px;
-    gap: 50px;
+    gap: 90px;
     border-radius: 5px;
     margin-bottom: 20px;
    
