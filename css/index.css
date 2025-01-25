@@ -396,7 +396,7 @@ product section
     gap: 55px;
 }
 
-/* .product_details { */
+.product_details {
     width: 100%;
     gap: 20px;
     display: flex;
@@ -408,7 +408,7 @@ product section
 
 
 .pics {
-    width: 430px;
+    width: 657px;
     justify-content: space-between;
 }
 
