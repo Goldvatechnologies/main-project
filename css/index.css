@@ -392,20 +392,24 @@ product section
 .product_box {
     display: flex;
     width: 100%;
-    gap: 50px;
+    gap: 150px;
 }
 
 .product_details {
-    width: 100%;
+    width: 547px;
+    height: 548px;
     gap: 20px;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .product_info {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    
 }
 
 /* blog */
