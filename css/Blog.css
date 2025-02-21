@@ -37,6 +37,7 @@ body {
     color: brown;
     text-decoration: solid;
 }
+
 .blog_banner {
     width: 100%;
 }
@@ -52,35 +53,38 @@ body {
 }
 
 .box {
-    display: flex;
-    align-content: center;
-    }
+    width: 600px;
+    margin: 0 auto;
+}
+
 .search {
     display: flex;
     width: 600px;
     height: 70px;
-    background-color:#F4F0EC;
+    background-color: #F4F0EC;
     border: none;
     padding: 10px;
     resize: none;
-        }
-   
-        .whole {
-            display: flex;
-            gap: 100px;
-            
-        }
+}
+
+.whole {
+    display: flex;
+    gap: 100px;
+
+}
+
 .latest_post_info {
     margin-top: 90px;
     font-size: larger;
     text-align: justify;
     padding-right: 180px;
-  
+
 }
 
 .low_cost {
     font-weight: bolder;
 }
+
 .Loren {
     margin-top: 13px;
 }
@@ -101,51 +105,54 @@ body {
     align-content: center;
     justify-content: space-between;
     margin-top: 50px;
-   
-     }
-     .icon {
-        display: flex;
-        align-items: end;
-     }
-    .details {
-        width: 230px;
-        font-weight: bolder;
-        font-size: x-large;
-        text-align: justify;
-        
-    }
 
-     .button {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 50px;
-    }
+}
 
-    .logo {
-        display: flex;
-        margin-top: 50px;
-        margin-bottom: 80px;
-        width: 100%;
-        justify-content: space-between;
-    }
-    
-    .background {
-        width: 100%;
-        height: 300px;
-        background-color: black;
-    }
-    .send_button {
+.icon {
+    display: flex;
+    align-items: end;
+}
+
+.details {
+    width: 230px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: justify;
+
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.background {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+.send_button {
     background-color: black;
     color: white;
     padding: 10px 15px;
     border-radius: 10px;
     margin-top: 50px;
     font-weight: bold;
-      
-}  
- 
+
+}
+
 
 .j {
     gap: 30px;
@@ -153,7 +160,27 @@ body {
     align-content: center;
 }
 
-.box {
-    width: 500px;
-    align-content: center;
+form {
+    position: relative;
+}
+
+.form_search {
+    display: block;
+    width: 600px;
+    height: 70px;
+    background-color: #F4F0EC;
+    border: none;
+    padding: 10px;
+    padding-right: 60px;
+    font-size: 20px;
+
+}
+
+.form_search_btn {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
 }
